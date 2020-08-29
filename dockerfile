@@ -1,5 +1,5 @@
-from python3
+from python
 copy . /usr/src/app
 workdir /usr/src/app
 run pip install -r requiremtnts.txt
-cmd ["python3","manage.py","runserver","0.0.0.0:8000"]
+cmd ["python","manage.py","runserver","0.0.0.0:8000"]
