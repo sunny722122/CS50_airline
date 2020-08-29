@@ -15,6 +15,15 @@ DATABASES = {
         'PORT': 5432,
     }
 }
+
+docker ps
+lookup the container ID
+run interactive bash command in container
+docker exec -it containerID bash -l
+then could run command in container
+ctrl+D logout container
+
+
 issue:
 django.core.exceptions.ImproperlyConfigured: Error loading psycopg2 module: No module named 'psycopg2'
 solution:
