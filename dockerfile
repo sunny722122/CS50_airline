@@ -1,4 +1,6 @@
-from python
+from python:3.8
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
 copy . /usr/src/app
 workdir /usr/src/app
 run pip install -r requirements.txt
