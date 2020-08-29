@@ -2,6 +2,7 @@ from django.db.models import Max
 from django.test import TestCase
 
 from .models import Airport,Flight,Passenger
+from django.test import Client, TestCase
 
 # Create your tests here.
 class FlightTestCase(TestCase):
